@@ -82,8 +82,12 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-
-
+//C. The code works in this way because the computer reads the
+// var letter ="x" statement first and then moves to the bottom
+// of the code to find how to use the variable. There it gets told that the letter =z and the computer
+//will then write that information in console. From there, it will go into
+//the function where it will gain more information and provide
+//the letter y.
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
