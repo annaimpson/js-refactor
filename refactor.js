@@ -151,9 +151,9 @@ var spanishColor = function(colorName){
     verde: "#00ff00",
     negro: "#000000",
   };
-  return colorList.verde;
+  return colorList[colorName];
 };
-  console.log(spanishColor());
+  console.log(spanishColor('rojo'));
 
 
 
