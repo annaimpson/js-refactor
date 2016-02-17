@@ -239,6 +239,7 @@ var decreaseScore = function() {
   score--;
 };
 }());
+
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -257,6 +258,14 @@ var addNumbers = function(numberA, numberB) {
 var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
+
+var addNumbers = function(numberA, numberB) {
+  return (numberA + numberB);
+};
+var twoPlusTwo = addNumbers(2,2);
+
+addNumbers(2,2);
+console.log(addNumbers(2,2));
 
 
 // -----------------------------------------------
@@ -283,7 +292,14 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+//NaN gets shown because it needs a number to work; therefore,
+//it shows this error because it simply needs a number.
 
+var speed = 1;
+
+var accelerate = function(amount) {
+  speed += amount;
+};
 
 // -----------------------------------------------
 
