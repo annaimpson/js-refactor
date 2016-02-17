@@ -47,12 +47,12 @@ function sayHi() {
   alert("Hello, World!");
 }
 
-setTimeout(sayHi, 2000);
+// setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
-setTimeout(function(){
-  alert("Hello, World!");
-  }, 2000);
+// setTimeout(function(){
+//   alert("Hello, World!");
+//   }, 2000);
 
 // -----------------------------------------------
 
@@ -108,8 +108,9 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
-
-
+var reverseStr = function(str) {
+return str.split("").reverse().join("");
+};
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
